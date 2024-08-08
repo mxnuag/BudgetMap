@@ -1,0 +1,21 @@
+/* src/components/Preloader/Preloader.css */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.animate-bounce div {
+    animation: bounce 0.5s infinite;
+}
+
+.animate-bounce div:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.animate-bounce div:nth-child(3) {
+    animation-delay: 0.2s;
+}
